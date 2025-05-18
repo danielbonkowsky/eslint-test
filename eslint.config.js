@@ -16,10 +16,10 @@ export default defineConfig([
     extends: ["js/recommended"],
     rules: {
       curly: "error",
-      "@stylistic/js/semi": ["error", "always"],
-      "@stylistic/js/brace-style": "error",
-      "@stylistic/js/indent": ["error", 2, { "SwitchCase": 1 }],
-      "@stylistic/js/max-statements-per-line": ["error", { "max": 1 }]
+      "@stylistic/semi": ["error", "always"],
+      "@stylistic/brace-style": "error",
+      "@stylistic/indent": ["error", 2, { "SwitchCase": 1 }],
+      "@stylistic/max-statements-per-line": ["error", { "max": 1 }]
     }
   }
 ]);
